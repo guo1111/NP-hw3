@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title> Add </title>
+		<meta charset='utf-8'>
+	</head>
+	<body>
+		User to Add<br>
+		<form action="" method="post">
+			{%csrf_token%}
+			<label for="username">用戶名稱:</label>
+			<input type="text" name="username" value="" id="username"><br>
+			<label for="password">用戶密碼:</label>
+			<input type="text" name="password" value="" id="password"><br>
+			<label for="sex">Sex:</label>
+			<input type="text" name="sex" value="" id="sex"><br>
+			<label for="height">Height:</label>
+			<input type="text" name="height" value="" id="height"><br>
+			<label for="weight">Weight:</label>
+			<input type="text" name="weight" value="" id="weight"><br>
+			<label for="hobby">Hobby:</label>
+			<input type="text" name="hobby" value="" id="hobby"><br>
+			<input type="submit" value="確認"> <a href="/superdata/">返回</a></p>
+		</form>
+	</body>
+</html>

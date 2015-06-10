@@ -1,0 +1,13 @@
+<h1>User List</h1>
+{% for user in u %}
+    <div>
+	name : {{ user.name }}<br>
+	sex : {{ user.sex }}<br>
+	height : {{ user.height }}<br>
+	weight : {{ user.weight }}<br>
+	hobby : {{ user.hobby }}<br><br>
+	
+	Last Edit Time :{{ user.time }}<br>
+    </div>
+{% endfor %}
+<a href="/sdel/">刪除</a></p><a href="/sadd/">新增</a></p><a href="/login/">登出</a></p>
